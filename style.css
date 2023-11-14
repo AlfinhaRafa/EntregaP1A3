@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+width: 120px;
+height: 114,6px;
+position: absolute;
+top: 0%;
+}
+
+.container {
+  background-color: rgba(20, 20, 20, 0.90);
+  padding: 8px;
+  width: 422px;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 0 rgb(0, 0, 0);
+  position: relative;
+}
+
+form {
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 39px;
+  transition: .5s;
+  width: 300px;
+  height: 400px;
+  
+}
+ 
+
+input[type="text"]{
+  border: none;
+  background: #2c2c2c;
+  border-radius: 8px;
+  width: 333px;
+  height: 60px;
+  position: center;
+  margin-top: 40px;
+  padding: 8px 0 8px 35px;
+  width: 100%;
+} 
+
+input[type="password"] {
+  border: none;
+  background: #2c2c2c;
+  border-radius: 8px;
+  width: 333px;
+  height: 60px;
+  position: center;
+  margin-top: 20px;
+  padding: 8px 0 8px 35px;
+  width: 100%;
+}
+
+.botoes{
+  width: 50%;
+  margin-top: 25px;
+  margin-left: 36%;
+  position: center;
+}
+
+button[type="submit"] {
+  background: #ff891d;
+  color: white;
+  position: absolute;
+  border-radius: 15px;
+  width: 80%;
+  border: none;
+  outline: none;
+  padding: 8px 0 8px 0px;
+  font-size: 15px;
+  margin-top: 18px;
+  margin-left: 12%;
+  cursor: pointer;
+}
+
+button[type="submite"] {
+  background: rgba(127, 40, 181, 0.50);
+  color: white;
+  border-radius: 10px;
+  width: 140px;
+  left: 20px;
+  position: absolute;
+  border: none;
+  outline: none;
+  padding: 8px 0 8px 0px;
+  font-size: 13px;
+  margin-top: 73px;
+  margin-left: 22%;
+  cursor: pointer;
+}
+
+.divCheck {
+  color: rgb(32, 185, 196);
+  margin: 13px 0 0 5px;
+  width: 80%;
+  font-size: 12px;
+}
+
+#signin {
+  left: 25px;
+ 
+}
+
+
+i {
+  position: absolute;
+  left: 0;
+  padding: 23px 10px;
+}
+
+.iEmail {
+  top: 38px;
+}
+
+.iPassword {
+  top: 118px;
+  left: 2px;
+}
+

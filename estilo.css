@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+ background-color: rgba(0, 0, 0, 0.9);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 150px;
+  height: 114,6px;
+  position:center;
+  margin-top: -1%;
+  margin-left: 0%;  
+ }
+
+.container {
+  background-color: rgba(20, 20, 20, 0.90);
+  padding: 8px;
+  width: 630px;
+  height: 730px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 0 rgb(0, 0, 0);
+  position: relative;
+}
+
+
+form {
+  position: absolute;
+  margin-top: 175px;
+  margin-left: 39px;
+  transition: .5s;
+  width: 400px;
+  height: 400px;
+  
+}
+
+input[type="text"]{
+  border: none;
+  background: #2c2c2c;
+  border-radius: 8px;
+  width: 333px;
+  height: 60px;
+  position: relative;
+  margin-top: 20px;
+  margin-left: -3%;
+  padding: 8px 0 8px 35px;
+  width: 100%;
+} 
+
+
+input[type="password"] {
+  border: none;
+  background: #2c2c2c;
+  border-radius: 8px;
+  width: 333px;
+  height: 60px;
+  position: relative;
+  margin-top: 20px;
+  margin-left: -3%;
+  padding: 8px 0 8px 35px;
+  width: 100%;
+}
+
+button[type="submite"] {
+  background: #7e07ae;
+  color: white;
+  position: absolute;
+  border-radius: 15px;
+  width: 70%;
+  border: none;
+  outline: none;
+  padding: 8px 0 8px 0px;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-left: 12%;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background: rgba(20, 20, 20, 0.90);
+  color: white;
+  border-radius: 10px;
+  width: 140px;
+  left: 20px;
+  position: absolute;
+  border: none;
+  outline: none;
+  padding: 8px 0 8px 0px;
+  font-size: 13px;
+  margin-top: 80px;
+  margin-left: 25%;
+  cursor: pointer;
+}
+.botoes{
+  color: rgb(255, 255, 255);
+  width: 130px;
+  height: 114,6px;
+  position:center;
+  margin-top: 8%;
+  margin-left: 38%;  
+ }
+  .divCheck {
+    color: rgb(32, 185, 196);
+    margin: 13px 0 0 5px;
+    width: 80%;
+    font-size: 12px;
+  }
